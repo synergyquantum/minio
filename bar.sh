@@ -12,6 +12,12 @@ echo "      -> BAR.sh "
 echo "============================================================"
 
 echo "============================================================"
+echo "      -> Building Assets : Synergy Quantum S5 "
+
+cd browser
+npm install . 
+npm run release
+
 echo "============================================================"
 echo "      -> Building Package : Synergy Quantum S5 "
 echo "-------------------------------------------------------------"
